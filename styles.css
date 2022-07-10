@@ -1,0 +1,113 @@
+/* - Dark cyan: hsl(158, 36%, 37%)
+- Cream: hsl(30, 38%, 92%) */
+
+/* - Very dark blue: hsl(212, 21%, 14%)
+- Dark grayish blue: hsl(228, 12%, 48%)
+- White: hsl(0, 0%, 100%) */
+
+/* - Font size (paragraph): 14px */
+
+/* - Mobile: 375px
+- Desktop: 1440px
+ */
+/* - Family: [Montserrat](https://fonts.google.com/specimen/Montserrat)
+- Weights: 500-this is for paragraph, 700
+
+- Family: [Fraunces](https://fonts.google.com/specimen/Fraunces)
+- Weights: 700 for H1
+ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(30, 38%, 92%);
+  font-size: 62.5%;
+  padding: 15rem;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 30rem;
+  margin: 0 auto;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 15px;
+}
+
+.img-perfume {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px 0px 0px 15px;
+}
+.card-info {
+  width: 100%;
+  padding: 1rem;
+}
+.tag {
+  text-transform: uppercase;
+  color: hsl(228, 12%, 48%);
+  letter-spacing: 0.2rem;
+  font-family: "montserat", sans-serif;
+}
+
+h1 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  font-family: "Fraunces", serif;
+  margin: 1rem 0;
+}
+p {
+  color: hsl(228, 12%, 48%);
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+.price-tag {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.price {
+  color: hsl(158, 36%, 37%);
+  font-weight: bolder;
+  font-size: 1.8rem;
+  font-family: "Fraunces";
+  margin-right: 1rem;
+}
+
+.old-price {
+  font-size: 0.8rem;
+  color: hsla(228, 12%, 48%, 0.753);
+  text-decoration: line-through;
+}
+.btn {
+  width: 100%;
+  background-color: hsl(158, 36%, 37%);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+  margin: 1rem 0;
+  gap: 5%;
+}
+.icon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.link:link,
+.link:visited {
+  text-decoration: none;
+  font-size: 0.9rem;
+  color: hsl(0, 0%, 100%);
+  font-family: "montserat", sans-serif;
+}
+.link:hover,
+.link:active {
+}
